@@ -1,11 +1,11 @@
 Home
 About Us
-*Executive Board and Members
 Events
-Request
+-Request
 	Two weeks in advance
 Join
 Photos (Multimedia)
 Contact Us
 
+-Executive Board and Members
 *Penn State Altoona
