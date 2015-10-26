@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BehrendLionAmbassadors</title>
+  <title>Behrend Lion Ambassadors</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<!--	Search
+		Header
+		Contents
+
+		<yield>
+		
+		Footer??	-->
+<!-- CSS ids must be unique where as class can be applied to many things -->
+
+<!-- container div -->
+<div id="container">
+	<!-- search-container div -->
+	<div id="search-container">
+
+		<!-- search form goes here -->
+
+	</div>
+	<!-- END search-container div -->
+
+	<!-- divider div -->
+	<div class="divider">
+	</div>
+	<!-- END divider div -->
+
+	<!-- header-container div -->
+	<div id="header-container">
+
+		<!-- header with logo goes here -->
+
+	</div>
+	<!-- END header-container div -->
+
+	<!-- contents-container div -->
+	<div id="contents-container">
+
+		<ul>
+			<li>Home</li>
+			<li>Join Us</li>
+			<li>Events</li>
+			<li>Photos</li>
+			<li>About</li>
+			<li>Contact</li>
+		</ul>
+
+	</div>
+	<!-- END contents-container div -->
+</div>
+<!-- END container div -->
 
 <%= yield %>
+
+<!-- sitemap-footer-container -->
+<!-- footer-container -->
 
 </body>
 </html>
