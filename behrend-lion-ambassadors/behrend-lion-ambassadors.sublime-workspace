@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"base",
+				"base_title"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"bakgr",
+				"background-position"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"style",
+				"list-style-type"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 129.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"quit",
+			"exit",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"Package Control",
+			"Package Control: Install Package",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/images",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/javascripts",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/layouts",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/welcome",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/config"
+	],
+	"file_history":
+	[
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/layouts/application.html.erb",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/config/routes.rb",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/welcome/index.html.erb",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets/application.css",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/controllers/welcome_controller.rb",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/controllers/application_controller.rb",
+		"/Users/kensch/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets/welcome.scss",
+		"/Users/kensch/Dropbox/notes/quotes.txt",
+		"/Users/kensch/Dropbox/moveis.txt",
+		"/Users/kensch/Downloads/PennStateWirelessV2.mobileconfig",
+		"/Users/kensch/Downloads/123Haynes-universal-novacom-installer-dafc77e/README.md",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/kensch/Downloads/Android/README.txt",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/app/views/layouts/application.html.erb",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/app/helpers/application_helper.rb",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/app/views/static_pages/help.html.erb",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/config/routes.rb",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/kensch/.profile",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/README.md",
+		"/Users/kensch/Dropbox/Projects/www/sample_app/Gemfile",
+		"/Users/kensch/Dropbox/Projects/www/toy_app/app/models/micropost.rb",
+		"/Users/kensch/Dropbox/Projects/www/toy_app/app/models/user.rb",
+		"/Users/kensch/Dropbox/Projects/www/toy_app/config/routes.rb",
+		"/Users/kensch/Dropbox/Projects/www/toy_app/app/controllers/application_controller.rb",
+		"/Users/kensch/Dropbox/Projects/www/toy_app/app/controllers/users_controller.rb",
+		"/Users/kensch/Dropbox/Projects/www/toy_app/Gemfile",
+		"/Users/kensch/Dropbox/Projects/www/hello/app/controllers/application_controller.rb",
+		"/Users/kensch/Dropbox/Projects/www/hello/config/routes.rb",
+		"/Users/kensch/Dropbox/Projects/www/pin_board/Gemfile",
+		"/Users/kensch/Dropbox/Projects/www/pin_board/app/controllers/pins_controller.rb",
+		"/Users/kensch/Dropbox/Projects/www/pin_board/app/views/pins/index.html.haml",
+		"/Users/kensch/Dropbox/Projects/www/pin_board/config/routes.rb",
+		"/Users/kensch/Dropbox/Projects/www/pin_board/app/views/_form.html.haml",
+		"/Users/kensch/Dropbox/Projects/www/pin_board/app/views/view.html.haml",
+		"/Users/kensch/Dropbox/Projects/www/clients/2015/june/trevor-zach/used-electronics/website/index.html",
+		"/Users/kensch/Dropbox/Projects/www/theodinproject/ruby-programming/basic-ruby/project-ruby-building-blocks/proj1-caesar-cipher/caesar-cipher.rb",
+		"/Users/kensch/Dropbox/Projects/www/clients/2015/june/trevor-zach/used-electronics/website/css/styles.css",
+		"/Users/kensch/Downloads/NiceSimpleContactForm/contactthanks.php",
+		"/Users/kensch/Downloads/NiceSimpleContactForm/contactengine.php",
+		"/Users/kensch/Copied from Chromebook/todo",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/additional-important-topics/git-basics/test/README.txt",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/additional-important-topics/git-101/stretch/test/README.txt",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/Gemfile",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/db/migrate/20150525133703_add_paperclip_fields_to_article.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/models/article.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/helpers/articles_helper.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/articles/_form.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/articles/show.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/assets/stylesheets/styles.css.scss",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/layouts/application.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/controllers/articles_controller.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/controllers/tags_controller.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/articles/index.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/tags/index.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/tags/show.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/config/routes.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/articles/_comment.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/comments/_form.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/controllers/comments_controller.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/articles/edit.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/views/articles/new.html.erb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/db/migrate/20150520024620_create_comments.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/app/models/comment.rb",
+		"/Users/kensch/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/config/database.yml",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/web-development-frameworks/project-rails/blogger/db/migrate/20150518154707_create_articles.rb",
+		"/Users/kensch/Downloads/mount ntfs",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/09_timer/timer.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/08_book_titles/book.rb",
+		"/Users/kensch/Projects/psu/freshman/second-semester/122h/proj/15/proj15.txt",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/08_book_titles/book_titles_spec.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/04_pig_latin/pig_latin.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/04_pig_latin/pig_latin_spec.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/03_simon_says/simon_says.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/03_simon_says/simon_says_spec.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/02_calculator/calculator_spec.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/02_calculator/calculator.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/01_temperature/temperature_spec.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/01_temperature/temperature.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/00_hello/hello.rb",
+		"/Users/kensch/Projects/www/theodinproject/web-development-101/the-back-end/project-ruby/learn_ruby/00_hello/hello_spec.rb",
+		"/Users/kensch/a.txt",
+		"/:*"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";\n",
+			".efi",
+			"quick_setting_available_items",
+			"ipv6",
+			"padding",
+			"quick",
+			"button",
+			"opac",
+			"#F2F2F2",
+			"background",
+			"head",
+			"tag_path",
+			"files",
+			"open",
+			"remember"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "behrend-lion-ambassadors.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"ind",
+				"app/views/welcome/index.html.erb"
+			],
+			[
+				"applicatio",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"a",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"appl",
+				"app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
