@@ -87,10 +87,17 @@ table {
 #contents-container {
 	background-color:#2C76C7;
 	height:45px;
+	position:relative;	/*align*/ /*used method 1 on http://phrogz.net/css/vertical-align/index.html to vertically align the ul*/
 	width:100%;
+}
+ul {
+	height:22.5px;	/*align*/
+	margin-top:-11.25px;	/*align*/
+	position:absolute;	/*align*/
+	top:50%;	/*align*/
 }
 li {
 	color:white;
-	display:inline;
+	display:inline-block;	 /*could have used inline, but inline-block looks better when shrinking page horizontally*/
 	font-size:1.35em;
 }
