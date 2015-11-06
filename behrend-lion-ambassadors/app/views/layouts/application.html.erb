@@ -34,7 +34,13 @@
 	<!-- header-container div -->
 	<div id="header-container">
 
-		<!-- header with logo goes here -->
+		<!-- image-container -->
+		<div id="image-container">
+
+			<%= image_tag("logo.png") %>	<!-- rails for showing image -->
+
+		</div>
+		<!-- END image-container -->
 
 	</div>
 	<!-- END header-container div -->
@@ -42,24 +48,42 @@
 	<!-- contents-container div -->
 	<div id="contents-container">
 
-		<ul>
-			<li>Home</li>
-			<li>Join Us</li>
-			<li>Events</li>
-			<li>Photos</li>
-			<li>About</li>
-			<li>Contact</li>
-		</ul>
+		<!-- ul-container div -->
+		<div id="ul-container">
+
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>Join Us</li></a>
+				<a href="#"><li>Events</li></a>
+				<a href="#"><li>Photos</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Contact</li></a>
+			</ul>
+
+		</div>
+		<!-- END ul-container div -->
 
 	</div>
 	<!-- END contents-container div -->
+
+	<!-- content div -->
+	<div id="content">
+		<%= yield %>
+	</div>
+	<!-- END content div -->
+
+	<!-- sitemap-footer-container div -->
+	<div id="sitemap-footer-container">
+	</div>
+	<!-- END sitemap-footer-container div -->
+
+	<!-- footer-container div -->
+	<div id="footer-container">
+	</div>
+	<!-- END footer-container div -->
+
 </div>
 <!-- END container div -->
-
-<%= yield %>
-
-<!-- sitemap-footer-container -->
-<!-- footer-container -->
 
 </body>
 </html>
