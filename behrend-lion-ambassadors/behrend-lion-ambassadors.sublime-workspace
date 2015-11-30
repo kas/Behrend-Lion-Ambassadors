@@ -64,18 +64,10 @@
 	"buffers":
 	[
 		{
-			"contents": "",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "app/views/layouts/application.html.erb",
 			"settings":
 			{
-				"buffer_size": 1956,
+				"buffer_size": 2024,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +75,7 @@
 			"file": "app/assets/stylesheets/application.css",
 			"settings":
 			{
-				"buffer_size": 3531,
+				"buffer_size": 3685,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +83,7 @@
 			"file": "app/views/welcome/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 83,
+				"buffer_size": 430,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +91,15 @@
 			"file": "app/assets/stylesheets/welcome.scss",
 			"settings":
 			{
-				"buffer_size": 275,
+				"buffer_size": 344,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/welcome_controller.rb",
+			"settings":
+			{
+				"buffer_size": 70,
 				"line_ending": "Unix"
 			}
 		}
@@ -170,11 +170,11 @@
 	],
 	"file_history":
 	[
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/layouts/application.html.erb",
+		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets/application.css",
 		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/welcome/index.html.erb",
 		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets/welcome.scss",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/layouts/application.html.erb",
 		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/config/routes.rb",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets/application.css",
 		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/controllers/welcome_controller.rb",
 		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/controllers/application_controller.rb",
 		"/Users/kensch/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -307,15 +307,16 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/views/layouts/application.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2024,
 						"regions":
 						{
 						},
@@ -328,60 +329,31 @@
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/views/layouts/application.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1956,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1464,
-								1464
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 588.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "app/assets/stylesheets/application.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3531,
+						"buffer_size": 3685,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2160,
-								2183
+								1619,
+								1619
 							]
 						],
 						"settings":
@@ -390,55 +362,56 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1225.0,
+						"translation.y": 676.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "app/views/welcome/index.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 83,
+						"buffer_size": 430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "app/assets/stylesheets/welcome.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 275,
+						"buffer_size": 344,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								243,
+								243
 							]
 						],
 						"settings":
@@ -449,7 +422,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/welcome_controller.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
