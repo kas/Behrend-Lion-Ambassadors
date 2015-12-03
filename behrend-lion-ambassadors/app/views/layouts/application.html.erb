@@ -55,21 +55,21 @@
 			<!-- contents ul -->
 			<ul class="contents">
 
-				<a href="#"><li>Home</li></a>
-				<a href="#"><li>Join Us</li></a>
-				<a href="#"><li>Events</li></a>
-				<a href="#"><li>Photos</li></a>
-				<a href="#"><li>About</li></a>
-				<a href="#"><li>Contact</li></a>
+				<%= link_to root_path do %><li>Home</li><% end %>
+				<%= link_to join_us_path do %><li>Join Us</li><% end %>
+				<%= link_to events_path do %><li>Events</li><% end %>
+				<%= link_to photos_path do %><li>Photos</li><% end %>
+				<%= link_to about_path do %><li>About</li><% end %>
+				<%= link_to contact_path do %><li>Contact</li><% end %>
 
 				<!-- spacer div -->
 				<div id="spacer">
 				</div>
 				<!-- END spacer div -->
 
-				<a href="#" class="img"><li><%= image_tag("facebook.png") %></li></a>
-				<a href="#" class="img"><li><%= image_tag("twitter.png") %></li></a>
-				<a href="#" class="img"><li><%= image_tag("instagram.png") %></li></a>
+				<%= link_to "http://www.facebook.com/BehrendLionAmbassadors" do %><li><%= image_tag("facebook.png") %></li><% end %>
+				<%= link_to "http://www.twitter.com/BehrendLA" do %><li><%= image_tag("twitter.png") %></li><% end %>
+				<%= link_to "http://www.instagram.com/" do %><li><%= image_tag("instagram.png") %></li><% end %>
 
 			</ul>
 			<!-- END contents ul -->
