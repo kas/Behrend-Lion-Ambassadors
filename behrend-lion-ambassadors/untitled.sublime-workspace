@@ -63,38 +63,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/layouts/application.html.erb",
-			"settings":
-			{
-				"buffer_size": 2151,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/application.css",
-			"settings":
-			{
-				"buffer_size": 3473,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/welcome/index.html.erb",
-			"settings":
-			{
-				"buffer_size": 430,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/welcome.scss",
-			"settings":
-			{
-				"buffer_size": 344,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -148,18 +116,6 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/assets/stylesheets",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/controllers",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/layouts",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/welcome",
-		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/config"
-	],
 	"file_history":
 	[
 		"/Users/kensch/Dropbox/Projects/www/behrend-lion-ambassadors/behrend-lion-ambassadors/app/views/layouts/application.html.erb",
@@ -252,7 +208,7 @@
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -299,123 +255,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2151,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1602,
-								1602
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 707.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/assets/stylesheets/application.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2156,
-								2156
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1574.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/welcome/index.html.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 430,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								49,
-								49
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/assets/stylesheets/welcome.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								275,
-								275
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -425,7 +266,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -455,7 +296,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "behrend-lion-ambassadors.sublime-project",
+	"project": "untitled.sublime-project",
 	"replace":
 	{
 		"height": 50.0

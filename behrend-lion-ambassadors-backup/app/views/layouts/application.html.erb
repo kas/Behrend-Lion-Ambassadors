@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Behrend Lion Ambassadors</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<!--	Search
+		Header
+		Contents
+
+		<yield>
+		
+		Footer??	-->
+<!-- CSS ids must be unique whereas class can be applied to many things -->
+
+<!-- container div -->
+<div id="container">
+	<!-- search-container div -->
+	<div id="search-container">
+
+		<!-- search form goes here -->
+
+	</div>
+	<!-- END search-container div -->
+
+	<!-- divider div -->
+	<div class="divider">
+	</div>
+	<!-- END divider div -->
+
+	<!-- header-container div -->
+	<div id="header-container">
+
+		<!-- image-container -->
+		<div id="image-container">
+
+			<%= image_tag("logo.png") %>	<!-- rails for showing image -->
+
+		</div>
+		<!-- END image-container -->
+
+	</div>
+	<!-- END header-container div -->
+
+	<!-- contents-container div -->
+	<div id="contents-container">
+
+		<!-- ul-container div -->
+		<div id="ul-container">
+
+			<!-- contents ul -->
+			<ul class="contents">
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>Join Us</li></a>
+				<a href="#"><li>Events</li></a>
+				<a href="#"><li>Photos</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Contact</li></a>
+
+				<!-- spacer div -->
+				<div id="spacer">
+				</div>
+				<!-- END spacer div -->
+
+				<a href="#" class="img"><li><%= image_tag("facebook.png") %></li></a>
+				<a href="#" class="img"><li><%= image_tag("twitter.png") %></li></a>
+				<a href="#" class="img"><li><%= image_tag("instagram.png") %></li></a>
+			</ul>
+			<!-- END contents ul -->
+
+		</div>
+		<!-- END ul-container div -->
+
+	</div>
+	<!-- END contents-container div -->
+
+	<!-- content div -->
+	<div id="content">
+		<%= yield %>
+	</div>
+	<!-- END content div -->
+
+	<!-- sitemap-footer-container div -->
+	<div id="sitemap-footer-container">
+	</div>
+	<!-- END sitemap-footer-container div -->
+
+	<!-- footer-container div -->
+	<div id="footer-container">
+	</div>
+	<!-- END footer-container div -->
+
+</div>
+<!-- END container div -->
+
+</body>
+</html>

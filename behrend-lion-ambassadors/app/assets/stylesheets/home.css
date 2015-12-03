@@ -1,0 +1,24 @@
+#content-box {
+	background-color:#ffffff;
+	/*background-color:#CECDCD;*/
+	display:inline-block;
+	height:600px;
+	width:1150px;
+}
+#content {
+
+}
+#image-box {
+
+}
+#image-box img {
+	height:500px;
+	margin:0;
+	width:1150px;
+}
+#text-box {
+	
+}
+#radio-buttons {
+	
+}

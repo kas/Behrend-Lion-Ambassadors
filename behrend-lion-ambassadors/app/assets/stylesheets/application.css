@@ -11,8 +11,10 @@
  * file per style scope.
  *
  *= require_tree .
- *= require_self
  */
+
+// = require 'home'
+// = require 'about'
 
 /* BEGIN CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -164,6 +166,7 @@ table {
 	background-color:#CECDCD;
 	text-align:center;
 }
+
 #sitemap-footer-container {
 	background-color:#262C3A;
 	height:400px;
