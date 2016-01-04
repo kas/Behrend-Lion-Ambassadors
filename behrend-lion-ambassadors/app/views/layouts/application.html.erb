@@ -67,9 +67,9 @@
 				</div>
 				<!-- END spacer div -->
 
-				<%= link_to "http://www.facebook.com/BehrendLionAmbassadors" do %><li><%= image_tag("facebook.png") %></li><% end %>
-				<%= link_to "http://www.twitter.com/BehrendLA" do %><li><%= image_tag("twitter.png") %></li><% end %>
-				<%= link_to "http://www.instagram.com/" do %><li><%= image_tag("instagram.png") %></li><% end %>
+				<%= link_to "http://www.facebook.com/BehrendLionAmbassadors", class: "img" do %><li class="img"><%= image_tag("facebook.png") %></li><% end %>
+				<%= link_to "http://www.twitter.com/BehrendLA", class: "img" do %><li><%= image_tag("twitter.png") %></li><% end %>
+				<%= link_to "http://www.instagram.com/", class: "img" do %><li><%= image_tag("instagram.png") %></li><% end %>
 
 			</ul>
 			<!-- END contents ul -->
@@ -80,11 +80,11 @@
 	</div>
 	<!-- END contents-container div -->
 
-	<!-- content div -->
-	<div id="content">
+	<!-- yield div -->
+	<div id="yield">
 		<%= yield %>
 	</div>
-	<!-- END content div -->
+	<!-- END yield div -->
 
 	<!-- sitemap-footer-container div -->
 	<div id="sitemap-footer-container">
