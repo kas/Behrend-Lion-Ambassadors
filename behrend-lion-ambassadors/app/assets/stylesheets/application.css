@@ -112,39 +112,25 @@ table {
 #contents-container {
 	background-color:#2C76C7;
 	display: table;
-	height: 45px;
-	margin:0;
-	overflow: hidden;
-	padding:0;
-	position: relative;
+	height: 42px;
 	width: 100%;
 }
 #ul-container {
-	margin-left:10%;
 	display: table-cell;
-	margin:0;
-	padding:0;
-	#position: absolute; /*a variation of an "lte ie7" hack*/
-	#top: 50%;
-	vertical-align: middle;
-	width:100%;
+	height:42px;
 }
 .contents {
+	height:42px;
 	margin:0 auto;
-	/*margin-left:10%;*/
-	padding:0;
-	#position: relative;
-	#top: -50%;
 	width:1150px;
 }
 .contents li {
 	color:white;
 	display:inline-block;
 	font-size:1.15em;
-	list-style-type: none;
-	margin:-20px 0;
-	padding:25px 25px;
-    vertical-align: middle;
+	height:42px;
+	line-height: 42px;
+	padding:0px 25px;
 }
 .contents li:hover {
 	background-color:#1F4E96;
@@ -152,18 +138,21 @@ table {
 .contents img {
 	height:25px;
 	width:25px;
+	vertical-align: middle;
 }
 #spacer {
 	display:inline;
-	margin:0 144.25px;
+	margin:0 144.45px;
 }
 .img li:hover {
 	background-color:transparent;
 }
 /*END CONTENTS*/
 
-#content {
+#yield {
 	background-color:#CECDCD;
+	padding-top:10px;
+	padding-bottom:10px;
 	text-align:center;
 }
 

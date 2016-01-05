@@ -1,20 +1,17 @@
-#content-box {
+#content-box-home {
 	background-color:#ffffff;
-	/*background-color:#CECDCD;*/
 	display:inline-block;
 	height:600px;
 	width:1150px;
 }
-#content {
-
+#content-home {
+	/*text-align:center;*/
 }
 #image-box {
 
 }
 #image-box img {
-	height:500px;
-	margin:0;
-	width:1150px;
+	width:100%;
 }
 #text-box {
 	
