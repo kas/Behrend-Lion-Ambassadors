@@ -1,11 +1,11 @@
 #content-box-home {
 	background-color:#ffffff;
-	display:inline-block;
 	height:600px;
+	margin:0 auto;
 	width:1150px;
 }
 #content-home {
-	/*text-align:center;*/
+
 }
 #image-box {
 
@@ -14,7 +14,7 @@
 	width:100%;
 }
 #text-box {
-	
+	text-align:center;
 }
 #radio-buttons {
 	

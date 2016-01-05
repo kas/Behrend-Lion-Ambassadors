@@ -1,23 +1,22 @@
-#about {
+#content-box-about {
 	background-color:#ff0000;
-	/*display:inline;*/
-	float:center;
+	margin:0 auto;
 	height:600px;
 	width:1150px;
 }
-#words {
+#about-us-words {
 	background-color:#ffffff;
 	display:inline-block;
 	float:left;
 	height:600px;
 	width:40%;
 }
-#pics {
+#about-us-pics {
 	display:inline-block;
 	float:right;
 	height:600px;
 	width:40%;
 }
-#pics img {
+#about-us-pics img {
 	width:100%;
 }
