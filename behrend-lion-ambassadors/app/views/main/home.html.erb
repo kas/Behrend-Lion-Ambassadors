@@ -1,18 +1,25 @@
+<%= stylesheet_link_tag 'owl.carousel' %>
+<%= stylesheet_link_tag 'owl.theme.default' %>
+
+<%= javascript_include_tag "jquery.min" %>
+<%= javascript_include_tag "owl.carousel" %>
+
 <!-- content-box-home div -->
 <div id="content-box-home">
 
 	<!-- content-home div -->
 	<div id="content-home">
 
-		<!-- image-box div -->
-		<div id="image-box">
-			<%= image_tag("home.jpg") %>
+		<div class="owl-carousel owl-theme">
+          
+		  <div class="carousel-img"><%= image_tag("home.jpg") %></div>
+		  <div class="carousel-img"><%= image_tag("carousel2.jpg") %></div>
+		 
 		</div>
-		<!-- END image-box div -->
 		
 		<!-- text-box div -->
 		<div id="text-box">
-			<p>Lorep ipsum</p>
+			<h1>Welcome to the Penn State Behrend Lion Ambassadors Website!</h1>
 		</div>
 		<!-- END text-box div -->
 
@@ -26,3 +33,9 @@
 	
 </div>
 <!-- END content-box div -->
+
+<script>
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel();
+});
+</script>

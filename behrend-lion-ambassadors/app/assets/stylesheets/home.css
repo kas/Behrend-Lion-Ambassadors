@@ -1,17 +1,16 @@
+.carousel-img img {
+	width:1150px;
+	height:500px;
+}
+
 #content-box-home {
 	background-color:#ffffff;
-	height:600px;
+	height:550px;
 	margin:0 auto;
 	width:1150px;
 }
 #content-home {
 
-}
-#image-box {
-
-}
-#image-box img {
-	width:100%;
 }
 #text-box {
 	text-align:center;
