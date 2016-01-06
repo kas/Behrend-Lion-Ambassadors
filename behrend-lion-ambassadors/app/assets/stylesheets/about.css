@@ -1,5 +1,5 @@
 #content-box-about {
-	background-color:#ff0000;
+	background-color:#cecdcd;
 	margin:0 auto;
 	height:600px;
 	width:1150px;
@@ -10,6 +10,7 @@
 	float:left;
 	height:600px;
 	width:40%;
+	font-family:Georgia;
 }
 #about-us-pics {
 	display:inline-block;
@@ -19,4 +20,14 @@
 }
 #about-us-pics img {
 	width:100%;
+}
+h1 {
+	text-align:center;
+	text-decoration:underline;
+}
+#mission {
+	margin-top:50px;
+}
+#history {
+	margin-top:150px;
 }
