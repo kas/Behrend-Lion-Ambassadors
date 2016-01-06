@@ -66,19 +66,10 @@ table {
 	border-spacing: 0;
 }
 /* END CSS RESET */
-/* should not need css reset in welcome.scss */
 
 #container {
 	width:100%;
 }
-
-/*SEARCH BAR*/
-#search-container {
-	background-color:#000000;
-	height:35px;
-	width:100%;
-}
-/*END SEARCH BAR*/
 
 .divider {
 	background-color:#50545E;
