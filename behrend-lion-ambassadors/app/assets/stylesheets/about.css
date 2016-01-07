@@ -11,6 +11,8 @@
 	height:600px;
 	width:40%;
 	font-family:Georgia;
+
+	border-radius: 10px;
 }
 #about-us-pics {
 	display:inline-block;
