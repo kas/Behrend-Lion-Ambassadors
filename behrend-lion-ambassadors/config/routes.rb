@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'emailcontroller/contact'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -10,8 +9,7 @@ Rails.application.routes.draw do
    #get "/events" => "main#events"
    #get "/photos" => "main#photos"
    get "/about" => "main#about"
-   get "/contact" => "emailcontroller#contact"
-
+   get "/contact" => "main#contact"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
