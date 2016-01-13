@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag "emails" %>
+<h1>Need Lion Ambassador Volunteers?</h1>
+<h1>Have a Question For Us?</h1>
+<h1>Send Us an Email!</h1>
+<div id="contactform">
+  <%= bootstrap_form_for(@emails) do |f| %>
+    <%= f.text_field :name, label: " Your Name:  ",class: "narrowinput" %>
+    <%= f.text_field :email, label: "Your Email:  ", class: "narrowinput" %><br />
+    <%= f.text_field :subject, label: "Email Subject:",class: "narrowinput" %>
+    <%= f.text_area :body, label: "Email Body:   ", id: "emailbodyinput" %>
+    <%= f.submit "Send", class: "button" %>
+  <% end %>
+</div>

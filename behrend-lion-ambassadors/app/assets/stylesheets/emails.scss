@@ -1,0 +1,45 @@
+// Place all the styles related to the emails controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-size: 20px;
+  font-family: "arial";
+  text-decoration: none;
+}
+#contactform {
+  margin: 30px auto;
+     width: 300px;
+}
+#title {
+  margin-top:10px;
+  font-family:sans-serif;
+  color: #414141;
+  font-size:30px;
+}
+.narrowinput {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 6px;
+  line-height: 1.6em;
+  border: 1px;
+  border-style: solid;
+  border-color: #999999;
+  text-align: right;
+}
+#emailbodyinput {
+  display: inline-block;
+  margin: 10px;
+  border-radius: 6px;
+  line-height: 1.6em;
+  vertical-align: middle;
+  height: 30px;
+}
+.button {
+  border: 1px;
+  border-style: solid;
+  border-color: #999999;
+  width: 10em;
+  height: 2em;
+  border-radius: 6px;
+  margin-left: 25%;
+}

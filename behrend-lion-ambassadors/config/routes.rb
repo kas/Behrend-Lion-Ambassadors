@@ -9,7 +9,8 @@ Rails.application.routes.draw do
    #get "/events" => "main#events"
    #get "/photos" => "main#photos"
    get "/about" => "main#about"
-   get "/contact" => "main#contact"
+   get "/contact" => "emails#new"
+   
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
@@ -18,6 +19,8 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+
+  resources :emails, :only => [:new, :create]
 
   # Example resource route with options:
   #   resources :products do
