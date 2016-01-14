@@ -6,6 +6,9 @@ h1 {
   font-family: "arial";
   text-decoration: none;
 }
+body {
+  background-color: #CECDCD
+}
 #contactform {
   margin: 30px auto;
      width: 300px;
@@ -24,7 +27,7 @@ h1 {
   border: 1px;
   border-style: solid;
   border-color: #999999;
-  text-align: right;
+  text-align: left;
 }
 #emailbodyinput {
   display: inline-block;

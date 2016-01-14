@@ -21,7 +21,7 @@ module EmailsHelper
         to lion_ambassadors_vp_email
         subject email_prefix + subject
         text_part do
-          body body
+          body "REPLY TO: " +email +", "+ name + "\n"+ body
         end
       end
       gmail.logout
