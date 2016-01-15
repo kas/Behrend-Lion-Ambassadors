@@ -8,9 +8,11 @@
     <%= f.text_field :email, label: "Your Email:  ", class: "narrowinput" %><br />
     <%= f.text_field :subject, label: "Email Subject:",class: "narrowinput" %>
     <%= f.text_area :body, label: "Email Body:   ", id: "emailbodyinput" %>
-    <%= f.submit "Send", class: "button" %>
+    <%= button_tag "Send", :onclick=>"return validate()", class: "button", id:"submitbutton" %>
   <% end %>
 </div>
-
 <script>
+function validate(){
+
+}
 </script>
