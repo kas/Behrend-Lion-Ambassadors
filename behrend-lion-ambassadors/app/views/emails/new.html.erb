@@ -4,18 +4,23 @@
 <h1>Send Us an Email!</h1>
 <div id="contactform">
   <%= bootstrap_form_for @emails, :html => { :id => "cform" } do |f| %>
-    <%= f.text_field :name, label: " Your Name:  ",class: "narrowinput" %>
-    <%= f.text_field :email, label: "Your Email:  ", class: "narrowinput" %><br />
-    <%= f.text_field :subject, label: "Email Subject:",class: "narrowinput" %>
+    <%= f.text_field :name, label: " Your Name:  ", id: "nameinput", class: "narrowinput" %>
+    <%= f.text_field :email, label: "Your Email:  ", id: "emailinput", class: "narrowinput" %><br />
+    <%= f.text_field :subject, label: "Email Subject:", id: "subjectinput", class: "narrowinput" %>
     <%= f.text_area :body, label: "Email Body:   ", id: "emailbodyinput" %>
-    <%= button_tag "Send", class: "button", id:"submitbutton" %>
+    <%= button_tag "Submit", class: "button", id:"submitbutton" %>
   <% end %>
 </div>
 <script>
 $( document ).ready(function() {
   $('#cform').submit(function(){
-    if (($('.narrowinput').val().length < 1)||()$('#emailbodyinput').val().length < 1)))
+    if (($('#nameinput').val().length < 1)
+    ||($('#emailinput').val().length < 1)
+    ||($('#subjectinput').val().length < 1)
+    ||($('#emailbodyinput').val().length < 1)){
+      alert("Please fill in all fields before submitting")
       return false
+    }
     else {
       return true
     }
