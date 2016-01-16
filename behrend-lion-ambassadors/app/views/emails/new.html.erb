@@ -2,22 +2,28 @@
 <h1>Need Lion Ambassador Volunteers?</h1>
 <h1>Have a Question For Us?</h1>
 <h1>Send Us an Email!</h1>
-<div id="contactformDiv">
-  <%= bootstrap_form_for @emails, :html => { :id => "cform" } do |f| %>
-    <%= f.text_field :name, label: " Your Name:  ", id: "nameinput", class: "narrowinput" %>
-    <%= f.text_field :email, label: "Your Email:  ", id: "emailinput", class: "narrowinput" %><br />
-    <%= f.text_field :subject, label: "Email Subject:", id: "subjectinput", class: "narrowinput" %>
-    <%= f.text_area :body, label: "Email Body:   ", id: "emailbodyinput" %>
-    <%= button_tag "Submit", class: "button", id:"submitbutton" %>
+<!-- <div id="contactformDiv"> -->
+<div id="form-main">
+<div id="form-div">
+  <%= form_for @emails, :html => { :id => "form1", :class =>"form" } do |f| %>
+    <p><%= f.text_field :name,  id: "name", placeholder: "Your Name", class: "feedback-input" %></p>
+    <p><%= f.text_field :email,  id: "email", class:"validate[required,custom[email]] feedback-input", placeholder:" Your Email" %><br /></p>
+    <p><%= f.text_field :subject, id: "subject", class:"validate[required,custom[onlyLetter],length[0,100]] feedback-input", placeholder:"Subject" %></p>
+    <p><%= f.text_area :body, class: "validate[required,length[6,300]] feedback-input", id:"comment", placeholder:"Body" %></p>
+    <div class = "submit">
+      <%= button_tag "SUBMIT", class: "button", id:"button-blue" %>
+      <div class="ease"></div>
+    </div>
   <% end %>
+  </div>
 </div>
 <script>
 $( document ).ready(function() {
-  $('#cform').submit(function(){
-    if (($('#nameinput').val().length < 1)
-    ||($('#emailinput').val().length < 1)
-    ||($('#subjectinput').val().length < 1)
-    ||($('#emailbodyinput').val().length < 1)){
+  $('#form1').submit(function(){
+    if (($('#name').val().length < 1)
+    ||($('#email').val().length < 1)
+    ||($('#subject').val().length < 1)
+    ||($('#comment').val().length < 1)){
       alert("Please fill in all fields before submitting")
       return false
     }
