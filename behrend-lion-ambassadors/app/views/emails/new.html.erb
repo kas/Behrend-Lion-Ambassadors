@@ -2,7 +2,7 @@
 <h1>Need Lion Ambassador Volunteers?</h1>
 <h1>Have a Question For Us?</h1>
 <h1>Send Us an Email!</h1>
-<div id="contactform">
+<div id="contactformDiv">
   <%= bootstrap_form_for @emails, :html => { :id => "cform" } do |f| %>
     <%= f.text_field :name, label: " Your Name:  ", id: "nameinput", class: "narrowinput" %>
     <%= f.text_field :email, label: "Your Email:  ", id: "emailinput", class: "narrowinput" %><br />

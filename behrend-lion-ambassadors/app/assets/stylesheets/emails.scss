@@ -9,9 +9,9 @@ h1 {
 body {
   background-color: #CECDCD
 }
-#contactform {
+#contactformDiv {
   margin: 30px auto;
-     width: 300px;
+  width: 300px;
 }
 #title {
   margin-top:10px;
@@ -41,6 +41,7 @@ body {
   border: 1px;
   border-style: solid;
   border-color: #999999;
+  background-color: white;
   width: 10em;
   height: 2em;
   border-radius: 6px;

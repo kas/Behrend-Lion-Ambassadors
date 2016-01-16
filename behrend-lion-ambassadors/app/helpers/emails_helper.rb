@@ -1,5 +1,4 @@
 require 'gmail'
-
 module EmailsHelper
 
   def self.send_email(name, email, subject, body)
