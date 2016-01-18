@@ -31,7 +31,7 @@
 		<!-- image-container -->
 		<div id="image-container">
 
-			<%= image_tag("liologo4.png") %>	<!-- rails for showing image -->
+			<%= link_to root_path do %><%= image_tag("liologo4.png") %><% end %>	<!-- rails for showing image -->
 
 		</div>
 		<!-- END image-container -->
@@ -50,7 +50,7 @@
 				<%= link_to root_path do %><li>Home</li><% end %>
 				<%= link_to join_us_path do %><li>Join Us</li><% end %>
 				<%= link_to about_path do %><li>About</li><% end %>
-        <%= link_to events_path do %><li>Events</li><% end %>
+        <%= link_to events_path do %><li>Calendar</li><% end %>
 			  <%= link_to contact_path do %><li>Contact</li><% end %>
 
 				<!-- spacer div -->
