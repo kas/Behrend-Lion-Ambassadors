@@ -1,15 +1,16 @@
 #content-box-about {
 	background-color:#cecdcd;
 	margin:0 auto;
-	height:600px;
-	width:1150px;
+	/*height:600px;*/
+	/*width:1350px;*/
+	width: 90%;
 }
 #about-us-words {
 	background-color:#ffffff;
 	display:inline-block;
 	float:left;
-	height:600px;
-	width:40%;
+	height:1143px;
+	width:54%;
 	font-family:Georgia;
 
 	border-radius: 10px;
@@ -23,13 +24,19 @@
 #about-us-pics img {
 	width:100%;
 }
-h1 {
+.subheader {
 	text-align:center;
-	text-decoration:underline;
+	font-size: 1.5em;
+	color: #2C76C7;
 }
 #mission {
-	margin-top:50px;
+	margin-top:35px;
 }
 #history {
-	margin-top:150px;
+	margin-top:40px;
+}
+.paragraph {
+	padding: 15px;
+	font-family: "Calibri";
+	font-size: 1.2em
 }
