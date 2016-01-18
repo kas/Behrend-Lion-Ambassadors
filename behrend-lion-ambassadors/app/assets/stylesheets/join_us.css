@@ -1,9 +1,50 @@
-#join-us-words {
+/*#join-us-words {
 	background-color:#ffffff;
 	float:center;
 	margin:0 auto;
 	text-align:center;
-	width:1150px;
+	width: 90%;
 	font-family:Georgia;
 	height:600px;
+}*/
+
+#content-box-joinus {
+	background-color:#cecdcd;
+	margin:0 auto;
+	/*height:600px;*/
+	/*width:1350px;*/
+	width: 90%;
+}
+#join-us-words {
+	background-color:#ffffff;
+	display:inline-block;
+	float:left;
+	height:410px;
+	width:54%;
+	font-family:Georgia;
+	border-radius: 10px;
+}
+#join-us-pics {
+	display:inline-block;
+	float:right;
+	height:600px;
+	width:40%;
+}
+#joinus-pics img {
+	width:100%;
+}
+.subheader {
+	text-align:center;
+	font-size: 1.5em;
+	color: #2C76C7;
+		margin-top:25px;
+}
+
+.paragraph {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 3px;
+	font-family: "Calibri";
+	font-size: 1.25em
 }

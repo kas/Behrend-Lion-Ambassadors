@@ -1,10 +1,19 @@
 // Place all the styles related to the emails controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-h1 {
-  font-size: 20px;
-  font-family: "arial";
-  text-decoration: none;
+// h1 {
+//   font-size: 20px;
+//   font-family: "arial";
+//   text-decoration: none;
+// }
+.instructions {
+  text-align: center;
+  font-family: "Calibri";
+  font-size: 1.7em;
+}
+
+#lastinstruction {
+  padding-bottom: 15px;
 }
 
 body {
