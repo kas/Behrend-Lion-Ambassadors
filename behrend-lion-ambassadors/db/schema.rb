@@ -13,15 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20160113033756) do
 
-  create_table "emailcontrollers", force: :cascade do |t|
-    t.string   "fromname"
-    t.string   "fromemail"
-    t.string   "subject"
-    t.string   "emailbody"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "emails", force: :cascade do |t|
     t.string   "name"
     t.string   "email"

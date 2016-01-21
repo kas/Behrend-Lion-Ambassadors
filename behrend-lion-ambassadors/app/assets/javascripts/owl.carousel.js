@@ -179,7 +179,7 @@
 	 */
 	Owl.Defaults = {
 		items: 1,
-		loop: false,
+		loop: true,
 		center: false,
 		rewind: false,
 
@@ -2486,10 +2486,10 @@
 	 * @public
 	 */
 	Autoplay.Defaults = {
-		autoplay: false,
+		autoplay: true,
 		autoplayTimeout: 5000,
-		autoplayHoverPause: false,
-		autoplaySpeed: false
+		autoplayHoverPause: true,
+		autoplaySpeed: 3000
 	};
 
 	/**
