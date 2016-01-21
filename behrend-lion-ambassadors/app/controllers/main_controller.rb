@@ -5,8 +5,6 @@ class MainController < ApplicationController
 	end
 	def events
 	end
-	def photos
-	end
 	def about
 	end
 	def contact
