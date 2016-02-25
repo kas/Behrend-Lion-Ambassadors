@@ -1,6 +1,5 @@
 # behrend-lion-ambassadors
 ![alt tag](https://raw.github.com/kenschnall/behrend-lion-ambassadors/master/demo.png)
-![alt tag](https://raw.github.com/kenschnall/behrend-lion-ambassadors/master/demo.gif)
 # Introduction
 Malinda Miller ([@malindamiller](https://github.com/malindamiller)) and I created a website for the Penn State Behrend Lion Ambassadors organization.  We wanted to use a modern web development framework and worked with Ruby on Rails.  The goal of the website was to create an interface for the public to communicate with our organization.  We implemented a contact us system so that people can send messages to the club executive board.
 
