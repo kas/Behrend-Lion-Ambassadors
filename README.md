@@ -1,6 +1,6 @@
 # behrend-lion-ambassadors-website
 
-![demo image](https://raw.github.com/kenschnall/behrend-lion-ambassadors-website/master/demo.png)
+![demo image](https://raw.github.com/kas/behrend-lion-ambassadors-website/master/demo.png)
 
 # Introduction
 
